@@ -1,0 +1,79 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #72680d; 
+}
+
+.screen {
+    text-align: center;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+.login-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-box {
+    margin: 10px 0;
+    position: relative;
+}
+
+.input-box input {
+    padding: 10px;
+    padding-left: 40px;
+    width: 250px;
+    border: 1px solid #2e2c2c;
+    border-radius: 5px;
+    background-color: #4c4c05; 
+    color: black; 
+}
+
+.input-box .icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    padding: 0px 10px;
+}
+
+.footer-link {
+    color: black;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+.footer-link.left {
+    text-align: left;
+    margin-left: 10px;
+}
+.footer-link.right {
+    text-align: right;
+    margin-right: 10px;
+}
+
+.footer-link.center {
+    text-align: center;
+    margin: 0 auto;
+}
